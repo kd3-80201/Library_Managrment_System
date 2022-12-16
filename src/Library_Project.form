@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Library_Project">
+  <grid id="27dc6" binding="jpanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="87e7c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="24" style="1"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Aditya Engineering College, Beed"/>
+        </properties>
+      </component>
+      <component id="a6dbc" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Times New Roman" size="20" style="1"/>
+          <text value="Library"/>
+        </properties>
+      </component>
+      <grid id="4e38b" class="javax.swing.JMenuBar" binding="jmbr" layout-manager="GridLayoutManager" row-count="1" column-count="4" same-size-horizontally="true" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ce227" class="javax.swing.JMenu" binding="studentMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Student"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="810a3" class="javax.swing.JMenuItem" binding="newStudentMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="New Student "/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="439b8" class="javax.swing.JMenuItem" binding="updateMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Update"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="aba73" class="javax.swing.JMenuItem" binding="deleteMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Delete"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="82b5c" class="javax.swing.JMenuItem" binding="reportMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Report"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="7906a" class="javax.swing.JMenu" binding="stockMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Stock"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="5282c" class="javax.swing.JMenuItem" binding="newBookMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="New Book"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="10331" class="javax.swing.JMenuItem" binding="editMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Edit"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="dde00" class="javax.swing.JMenuItem" binding="deleteMenuItem1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Delete"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="47f9b" class="javax.swing.JMenuItem" binding="damageMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Damage"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="4eab6" class="javax.swing.JMenuItem" binding="reportMenuItem1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Report"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="f6620" class="javax.swing.JMenu" binding="issueMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Issue"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="9bf3a" class="javax.swing.JMenuItem" binding="issueMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Issue"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="74d08" class="javax.swing.JMenuItem" binding="returnMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Return"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="af2dc" class="javax.swing.JMenuItem" binding="availabilityMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Availability"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="977ca" class="javax.swing.JMenuItem" binding="reportMenuItem2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Report"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="4e92c" class="javax.swing.JMenuItem" binding="issueTableMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <text value="issueTable"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+          <grid id="511af" class="javax.swing.JMenu" binding="adminMenu" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16"/>
+              <text value="Admin"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="3334a" class="javax.swing.JMenuItem" binding="passwordSettingMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Password Setting "/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="a8c01" class="javax.swing.JMenuItem" binding="editFeesMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="Edit Fees "/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+              <grid id="10762" class="javax.swing.JMenuItem" binding="newCourseMenuItem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="0" left="0" bottom="0" right="0"/>
+                <constraints/>
+                <properties>
+                  <font size="16"/>
+                  <text value="New Course"/>
+                </properties>
+                <border type="none"/>
+                <children/>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <vspacer id="178f8">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
